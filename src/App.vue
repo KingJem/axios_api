@@ -12,6 +12,11 @@ export default {
   name: "App",
   components: {
     HelloWorld
+  },
+  methods: {
+    add(){
+      this.$api.vote.voteAdd()
+    }
   }
 };
 </script>
